@@ -1,47 +1,47 @@
-html{
-    font-size: 62.5%;
-    padding: 0%;
-    margin: 0%;
-    box-sizing: border-box;
+html {
+  font-size: 62.5%;
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
 }
-body{
-    text-transform: uppercase;
-    letter-spacing: 1ch;
-}
-
-.header{
-    height: 100vh;
-    position: relative;
-    background-color: aquamarine;
-    z-index: 2;
+body {
+  text-transform: uppercase;
+  letter-spacing: 1ch;
 }
 
-.header-text{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: 'Teko', sans-serif;
+.header {
+  height: 100vh;
+  position: relative;
+  background-color: aquamarine;
+  z-index: 2;
 }
-.cactus{
-    position: absolute;
-    left: 1.5rem;
-    top: 1.5rem;
-    z-index: 1;
-    height: 50vh;
-    width: 50vh;
+
+.header-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Teko", sans-serif;
 }
-.sky{
-    position: absolute;
-    left: -17rem;
-    top: -15rem;
-    z-index: -1;
-    height: 50vh;
-    width: 50vh;
+.cactus {
+  position: absolute;
+  left: 1.5rem;
+  top: 1.5rem;
+  z-index: 1;
+  height: 50vh;
+  width: 50vh;
+}
+.sky {
+  position: absolute;
+  left: -17rem;
+  top: -15rem;
+  z-index: -1;
+  height: 50vh;
+  width: 50vh;
 }
 #myHeader {
-    background-color: lightblue;
-    color: black;
-    padding: 2rem;
-    text-align: center;
-  }
+  background-color: lightblue;
+  color: black;
+  padding: 2rem;
+  text-align: center;
+}
