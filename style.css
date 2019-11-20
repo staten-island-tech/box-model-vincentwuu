@@ -1,8 +1,11 @@
-body{
-    text-transform: uppercase;
+html{
+    font-size: 62.5%;
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
+}
+body{
+    text-transform: uppercase;
     letter-spacing: 1ch;
 }
 
@@ -22,16 +25,16 @@ body{
 }
 .cactus{
     position: absolute;
-    left: 25px;
-    top: 25px;
+    left: 1.5rem;
+    top: 1.5rem;
     z-index: 1;
     height: 50vh;
     width: 50vh;
 }
 .sky{
     position: absolute;
-    left: -150px;
-    top: -150px;
+    left: -17rem;
+    top: -15rem;
     z-index: -1;
     height: 50vh;
     width: 50vh;
@@ -39,6 +42,6 @@ body{
 #myHeader {
     background-color: lightblue;
     color: black;
-    padding: 20px;
+    padding: 2rem;
     text-align: center;
   }
